@@ -8,6 +8,4 @@ jobs:
   terraform:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out repository code
-        uses: actions/checkout@v2
-      - run: echo "Always success"
+      - run: exit 1 
